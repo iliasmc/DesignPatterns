@@ -3,7 +3,7 @@ package Structural.Composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Composite implements Component{
+public class SubWindow implements Component{
 
     private List<Component> children = new ArrayList<>();
 
@@ -20,7 +20,9 @@ public class Composite implements Component{
     }
 
     @Override
-    public void operation() {
-        System.out.println("Composite node operation");
+    public void draw() {
+        for(Component component : children){
+            component.draw();
+        }
     }
 }
