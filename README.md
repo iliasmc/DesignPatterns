@@ -1,5 +1,3 @@
-# DESIGN PATTERNS
-
 ## What is a design pattern?
 
 A design pattern names, abstracts, and identifies the key aspects of a common design structure that make it useful for 
