@@ -14,9 +14,5 @@ without modifying their code.
 
 ## Example
 
-In this example, an abstract account class hierarchy is making use of a transfer implementation hierarchy.
+1. *Singleton* -> CurrencyConverter
 
-1. *Abstraction* -> BankAccount
-2. *RefinedAbstraction* -> SimpleAccount
-3. *Implementor* -> Transaction
-4. *ConcreteImplementor* -> TransactionValidator
