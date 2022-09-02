@@ -4,7 +4,8 @@ Software'.*
 ## What is a design pattern?
 
 A design pattern names, abstracts, and identifies the key aspects of a common design structure that make it useful for 
-creating object-oriented design. It is a high level solution to recurring design problems that arise in OOP systems.
+creating object-oriented design. It is a high level solution to recurring design problems that arise in OOP systems. 
+They are not one-size-fits-all, every design problem requires a slightly different variation of different patterns.
 
 ## Why are design patterns so useful?
 Design patterns are formed from the best practices for OOP programming, and using them in the right scenario will:

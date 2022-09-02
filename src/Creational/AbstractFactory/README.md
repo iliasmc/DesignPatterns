@@ -14,7 +14,8 @@
 
 ## Example
 
-In this example, an abstract account class hierarchy is making use of a transfer implementation hierarchy.
+In this example, a factory which is determined when the program is booted selects the family of Window and Button that
+will be used.
 
 1. *AbstractFactory* -> AbstractFactory
 2. *ConcreteFactory* -> LinuxFactory, MacOsFactory, WindowsFactory
